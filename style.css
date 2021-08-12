@@ -116,3 +116,11 @@ body{
 	width:100px;
 	height: 80px;
 }
+#toppingsImg {
+float: right;
+padding-top: 100px;
+padding-inline: 800px;
+}
+
+
+

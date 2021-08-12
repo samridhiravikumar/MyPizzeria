@@ -17,7 +17,7 @@ var item=document.getElementById("add_item").value;
         // use the sort function as - menu_list_array.sort();
         menu_list_array.sort();
         for(var i=0;i<menu_list_array.length;i++){
-            htmldata=htmldata+ menu_list_array[i]+'<br>';
+            htmldata=htmldata+ menu_list_array[i]+'<br><br>';
         }
          document.getElementById("display_addedmenu").innerHTML = htmldata;		
       }
